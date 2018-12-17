@@ -1,0 +1,28 @@
+form, .input{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    
+    width: 30%;
+}
+.error{
+    color: red;
+}
+
+form input, select{
+    margin-top: 2%;
+}
+
+label {
+    margin-top: 5%;
+}
+
+.valido{
+    border:1px solid green;
+}
+
+.invalido{
+    border:1px solid red;
+}

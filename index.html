@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Examen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<!-- BODY -->
+<body>
+    <div>
+        <div>
+            <h2>Examen cliente</h2>
+        </div>
+    </div>
+    <form id="form">
+        <div class="input">
+            <label>Nombre de la aplicación web:</label>
+            <input type="text" id="aplicacion" name="aplicacion">
+            <div class="error"></div>
+        </div>
+
+        <div class="input">
+            <label>Tema de la aplicación:</label>
+            <select id="tema" class="required">
+                <option value="-">-</option>
+                <option value="deportes">Deportes</option>
+                <option value="videojuegos">Videojuegos</option>
+                <option value="peliculas">Peliculas</option>
+                <option value="series">Series</option>
+                <option value="libros">Libros</option>
+            </select>
+            <div class="error"></div>
+        </div>
+
+        <div class="input">
+            <label>Lenguaje de programación:</label>
+            <input type="text" id="lenguaje" name="lenguaje">
+            <div class="error"></div>
+        </div>
+
+        <div class="input">
+            <label>Horas dedicadas al proyecto:</label>
+            <input type="text" id="horas" name="horas">
+            <div class="error"></div>
+        </div>
+
+        <div class="input">
+            <label>Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <div class="error"></div>
+        </div>
+
+        <div class="input">
+            <label>Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos">
+            <div class="error"></div>
+        </div>
+
+        <div class="input">
+            <label>DNI:</label>
+            <input type="text" id="dni" name="dni">
+            <div class="error"></div>
+        </div>
+
+        <div class="input">
+            <label>Código de proyecto:</label>
+            <input type="text" id="codigo" name="codigo">
+            <div class="error"></div>
+        </div>
+
+        <div class="input">
+            <label><input type="checkbox" id="terminos"> Acepto las condiciones</label>
+            <div class="error"></div>
+        </div>
+        <input type="submit" id="registro" value="Registro">
+
+    </form>
+
+    <script src="validacion.js" cache="false" defer></script>
+</body>
+</html>
